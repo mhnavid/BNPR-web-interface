@@ -31,10 +31,6 @@
 
 }
 
-
-
-
-
 .slider{
 	width: 640px; /*Same as width of the large image*/
 	position: relative;
@@ -77,6 +73,8 @@
 
 .slider label img{
 	display: block;
+	width: 100px;
+	height: 80px;
 }
 
 /*Time to add the click effects*/
