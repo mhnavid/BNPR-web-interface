@@ -108,6 +108,7 @@ On click the images will be displayed at normal size to complete the effect
 	margin-left: 50px;
 	margin-right: auto;
 	text-align: center;
+	box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.75);
 }
 
 .car-plate{
