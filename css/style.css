@@ -107,4 +107,19 @@ On click the images will be displayed at normal size to complete the effect
 	margin-top: 120px;
 	margin-left: 50px;
 	margin-right: auto;
+	text-align: center;
+}
+
+.car-plate{
+	margin: 70px 20px 0px 20px;
+	border: 2px solid #273240;
+}
+
+.car-plate-upper{
+	font-size: 16px;
+}
+
+.car-plate-lower{
+	margin-top: 3px;
+	font-size: 18px;
 }
