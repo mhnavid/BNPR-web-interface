@@ -88,14 +88,12 @@
 /*Clicking any thumbnail now should change its opacity(style)*/
 /*Time to work on the main images*/
 .slider input[name='slide_switch'] ~ img {
-	opacity: 0;
-	transform: scale(1.1);
+	transform: scale(1);
 }
 /*That hides all main images at a 110% size
 On click the images will be displayed at normal size to complete the effect
 */
 .slider input[name='slide_switch']:checked+label+img {
-	opacity: 1;
 	transform: scale(1);
 }
 
