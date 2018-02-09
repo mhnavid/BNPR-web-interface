@@ -1,3 +1,14 @@
+function carPlateUpper() {
+    return "ঢাকা মেট্রো - গ";
+}
+
+function carPlateLower() {
+    return "৩৫ - ৭৬৭০"
+}
+
+document.getElementById("carPlateUpper").innerHTML = carPlateUpper();
+document.getElementById("carPlateLower").innerHTML = carPlateLower()
+
 function showImg(n) {
   var image = document.getElementById("car-big-image");
 
