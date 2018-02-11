@@ -54,6 +54,7 @@
 	transition: all 0.5s;
 	width: 640px;
 	height: 320px;
+	object-fit: contain;
 }
 
 .slider input[name='slide_switch'] {
