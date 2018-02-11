@@ -44,7 +44,7 @@
 	margin: 70px auto;
 	
 	/*Lets add a shadow*/
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+	/*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);*/
 }
 
 /*Last thing remaining is to add transitions*/
@@ -96,28 +96,14 @@ On click the images will be displayed at normal size to complete the effect
 .slider input[name='slide_switch']:checked+label+img {
 	transform: scale(1);
 }
-
-.car-detail{
-	text-align: center;
-	margin-top: 50px;
-
-}
-.car-plate{
-	max-width: 180px;
-	background-color: #cccccc;
-	margin: 0 auto;
-	padding: 10px 0px;
-}
-.car-plate-upper{
-	font-size: 14px;
-}
-.car-plate-lower{
-	font-size: 16px;
-	font-weight: 900;
+.bottom-content-view{
+	margin: 70px auto;
+	width: 640px;
 }
 .test-image-upload{
-	margin-top: 10px;
 	text-align: center;
+	width: 33%;
+	float: left;
 }
 .test-image-title{
 	font-size: 18px;
@@ -153,12 +139,43 @@ On click the images will be displayed at normal size to complete the effect
 	outline: 1px dotted #000;
 	outline: -webkit-focus-ring-color auto 5px;
 }
-
+.car-detail{
+	text-align: center;
+	width: 33%;
+	float: left;
+}
+.car-plate{
+	width: 160px;
+	height: 50px;
+	background-color: #cccccc;
+	margin: 0 auto;
+	padding: 10px 0px;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+.car-plate-upper{
+	font-size: 14px;
+}
+.car-plate-lower{
+	font-size: 16px;
+	font-weight: 900;
+}
+.number-plate{
+	width: 33%;
+	float: right;
+}
+.number-plate img{
+	height: 50px;
+	width: 160px;
+	position: absolute;
+	object-fit: contain;
+}
 .footer{
-	margin-top: 50px;
+	margin-top: 100px;
 	width: 100%;
 	height: 70px;
 	background-color: #273240;
+	left: 0;
+	bottom: 0;
 }
 .footer p{
 	text-align: center;

@@ -44,5 +44,11 @@ function carPlateLower() {
     return "৩৫ - ৭৬৭০";
 }
 
+function getPlate() {
+    return "";
+}
+
 document.getElementById("carPlateUpper").innerHTML = carPlateUpper();
 document.getElementById("carPlateLower").innerHTML = carPlateLower();
+
+document.getElementById("numberPlate").src = getPlate();
